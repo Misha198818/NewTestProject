@@ -1,0 +1,9 @@
+pages\elements\Gender.class
+pages\elements\DateofBirth.class
+pages\elements\FirstName.class
+pages\elements\Email.class
+ui\BaseTest.class
+pages\elements\Mobile.class
+ui\TestMainPage.class
+pages\elements\LastName.class
+pages\MainPage.class
