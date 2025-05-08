@@ -28,7 +28,5 @@ public class Mobile {
             e.printStackTrace();
         }
         return this;             
-    } 
-
-
+    }
 }
