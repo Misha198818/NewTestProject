@@ -29,4 +29,10 @@ public class Email {
         }
         return this;             
     }
+
+    @Step("проверяем цвет контура поля Email")
+    public Email colorEmail(String color)  {
+        selector.shouldHave(Condition.cssValue("border-bottom-color", color));
+        return this; 
+    }
 }

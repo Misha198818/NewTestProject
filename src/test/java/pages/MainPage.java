@@ -6,8 +6,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.time.Duration;
 
-import org.openqa.selenium.devtools.v116.autofill.model.Address;
-
 import com.codeborne.selenide.Selenide;
 
 import io.qameta.allure.Step;
@@ -39,8 +37,10 @@ public class MainPage {
     public String FirstName = "Василий";
     public String LastName = "Жданов";
     public String Email = "vasya@example.com";
+    public String InvalidEmail = "vasyaexample.com";
     public String Gender = "Male";
     public String Mobile = "8920555232";
+    public String InvalidMobile = "892055523";
     public String HobbieSports = "Sports";
     public String HobbieReading = "Reading";
     public String HobbieMusic= "Music";
@@ -53,6 +53,8 @@ public class MainPage {
 
     public static String Year = "1980";
     public static String Month = "2";
+
+    public static String BorderColor = "rgba(220, 53, 69, 1)";  
     
 
     protected final FirstName firstName = new FirstName($x("//input[@id='firstName']"));
@@ -91,7 +93,7 @@ public class MainPage {
     }
 
     @Step("Заполняем текстовые поля формы")
-    public void fillFormMainPage()  {
+    public void fillForm()  {
         firstName.visibleFirstName(StandartDurationTime)
                  .insertFirstName(FirstName);
         lastName.visibleLastName()
@@ -103,6 +105,25 @@ public class MainPage {
         curretAddress.insertAddress(Address);      
 
     }
+
+    @Step("заполняем поля невалидными значениями")
+    public void fillFormInvalidValues()  {
+        email.insertEmail(InvalidEmail);
+        mobile.insertMobile(InvalidMobile);
+              
+    }
+
+    @Step("Проверка цвета валидации полей")
+    public void checkColor()  {
+        email.colorEmail(BorderColor);
+        firstName.colorFirstName(BorderColor);
+        lastName.colorLastName(BorderColor);
+        maleGender.colorGender(BorderColor);
+        femaleGender.colorGender(BorderColor);
+        mobile.colorMobile(BorderColor);
+              
+    }
+
     @Step("Кликаем лейблы gender и выбираем пол")
     public void chooseLaibleGender(String gender){
         maleGender.visibleGender()
@@ -141,7 +162,7 @@ public class MainPage {
                 reading.clickHobbies();
                 break;
             case("Music"):
-                music.clickHobbies();;
+                music.clickHobbies();
                 break;
             default:
                 reading.clickHobbies();
@@ -164,7 +185,9 @@ public class MainPage {
             stateAndCity.selectState()
                         .selectState();
   //                      .selectCity();       
-    }  
+    }
+    
+    
 
     @Step("Нажимаем кнопку submit")
     public void submitClick(){

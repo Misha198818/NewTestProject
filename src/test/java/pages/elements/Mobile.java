@@ -29,4 +29,12 @@ public class Mobile {
         }
         return this;             
     }
+
+    
+    @Step("проверяем цвет контура поля Mobile")
+    public Mobile colorMobile(String color)  {
+        selector.shouldHave(Condition.cssValue("border-bottom-color", color));
+        return this; 
+    }
+
 }

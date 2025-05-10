@@ -12,7 +12,10 @@ public class DateofBirth {
     private SelenideElement selectorMonth;
     private SelenideElement selectorDay;
 
-    public DateofBirth(SelenideElement selector, SelenideElement selectorYear, SelenideElement selectorMonth, SelenideElement selectorDay){
+    public DateofBirth(SelenideElement selector, 
+                       SelenideElement selectorYear,
+                       SelenideElement selectorMonth,
+                       SelenideElement selectorDay){
         this.selector = selector;
         this.selectorYear = selectorYear;
         this.selectorMonth = selectorMonth;
