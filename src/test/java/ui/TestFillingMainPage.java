@@ -2,6 +2,7 @@ package ui;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 import pages.ModalPage;
@@ -13,10 +14,13 @@ public class TestFillingMainPage extends BaseTest {
 
 
     //проверка заполнения формы
+    //заполняем форму валидными значениями
+    //нажимаем submit
+    @DisplayName("Заполняем форму")
     @Test
     public void TestFillingForm(){
         mainPage.openSite();
-        mainPage.fillFormMainPage();   
+        mainPage.fillForm();   
         mainPage.chooseLaibleGender(mainPage.getGender());
         mainPage.chooseDateOfDateofBirth();
         mainPage.chooseLaibleHobbies(mainPage.getHobbieSports());
@@ -25,7 +29,7 @@ public class TestFillingMainPage extends BaseTest {
         mainPage.submitClick();           
     }
 
-    //проверка результатов заполнения в модальном окне
+    @DisplayName("проверка результатов заполнения в модальном окне")
     @Test
     public void TestModal(){
        modalPage.fillMapTable();

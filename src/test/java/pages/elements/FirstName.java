@@ -33,6 +33,12 @@ public class FirstName {
         return this;             
     }
 
+    @Step("проверяем цвет контура поля FirstName")
+    public FirstName colorFirstName(String color)  {
+        selector.shouldHave(Condition.cssValue("border-bottom-color", color));
+        return this; 
+    }
+
 
 
 }

@@ -30,5 +30,11 @@ public class Gender {
         return this;
      }
 
+     @Step("проверяем цвет лейблов Gender")
+     public Gender colorGender(String color)  {
+         selector.shouldHave(Condition.cssValue("color", color));
+         return this; 
+     }
+
 
 }

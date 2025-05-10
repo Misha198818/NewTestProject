@@ -2,9 +2,14 @@ pages\elements\Submit.class
 pages\elements\Hobbies.class
 pages\elements\FirstName.class
 pages\elements\Email.class
+api\CreateBookingResponseData.class
 pages\elements\StateAndCity.class
+api\Bookingdates.class
 pages\ModalPage.class
 pages\elements\Mobile.class
+api\BookingData.class
+ui\TestValidateMainPage.class
+api\TestsBooking.class
 pages\elements\Picture.class
 pages\elements\LastName.class
 pages\MainPage.class
