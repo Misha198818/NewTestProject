@@ -24,11 +24,7 @@ import pages.elements.Submit;
 
 @Getter
 
-
-
 public class MainPage {
-
-   
 
     private final static String BASE_URL = "https://demoqa.com/automation-practice-form";
     File file = new File("C:\\Users\\Михаил\\Desktop\\fileSelenide\\картинка.jpg");
@@ -47,9 +43,7 @@ public class MainPage {
     public String FileName= "картинка.jpg";
     public String FullDate = "15 March,1980";
     public String Address = "456 Elm St, Лондон Е1 6АН, Великобритания";
- //   public String State = "Haryana";
- //   public String City = "Panipat";
-
+    public String StateAndCity = "NCR Delhi";
 
     public static String Year = "1980";
     public static String Month = "2";
@@ -83,7 +77,9 @@ public class MainPage {
     protected final CurretAddress curretAddress = new CurretAddress($x("//textarea[@id='currentAddress']"));
 
     protected final StateAndCity stateAndCity = new StateAndCity($x("//div[@id='state']"),
-                                                                 $x("//div[@id='city']"));
+                                                                 $x("//div[@id='react-select-3-option-0']"),
+                                                                 $x("//div[@id='city']"),
+                                                                 $x("//div[@id='react-select-4-option-0']"));
 
     private Duration StandartDurationTime = Duration.ofSeconds(5);
     
@@ -182,9 +178,10 @@ public class MainPage {
 
     @Step("кликаем выпадающие списки")
         public void chooseStateAndCity(){
-            stateAndCity.selectState()
-                        .selectState();
-  //                      .selectCity();       
+            stateAndCity.clickState()
+                        .selectState()
+                        .clicktCity()
+                        .selectCity();
     }
     
     

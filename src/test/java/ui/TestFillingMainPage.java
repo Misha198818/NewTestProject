@@ -41,7 +41,9 @@ public class TestFillingMainPage extends BaseTest {
        assertEquals(modalPage.getMapTable("Hobbies"), mainPage.getHobbieSports());
        assertEquals(modalPage.getMapTable("Picture"), mainPage.getFileName());
        assertEquals(modalPage.getMapTable("Address"), mainPage.getAddress());
-                
+       assertEquals(modalPage.getMapTable("State and City"), mainPage.getStateAndCity());
+
+
   }   
 }
 

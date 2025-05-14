@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="api.TestsBooking" time="12.167" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="api.TestsBooking" time="14.577" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\BellSoft\LibericaJDK-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Михаил\AppData\Local\Temp\surefire17414381531270998455\surefirebooter-20250513123254742_3.jar C:\Users\Михаил\AppData\Local\Temp\surefire17414381531270998455 2025-05-13T12-32-53_544-jvmRun1 surefire-20250513123254742_1tmp surefire_0-20250513123254742_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Михаил\AppData\Local\Temp\surefire10129375600791534391\surefirebooter-20250514114353309_3.jar C:\Users\Михаил\AppData\Local\Temp\surefire10129375600791534391 2025-05-14T11-43-52_372-jvmRun1 surefire-20250514114353309_1tmp surefire_0-20250514114353309_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Михаил\javaProg\newtestproject\target\test-classes;C:\Users\Михаил\javaProg\newtestproject\target\classes;C:\Users\Михаил\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\Михаил\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Михаил\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Михаил\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Михаил\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Михаил\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Михаил\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\Михаил\.m2\repository\com\codeborne\selenide\6.19.1\selenide-6.19.1.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-java\4.13.0\selenium-java-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.13.0\selenium-chrome-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.13.0\selenium-chromium-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.13.0\selenium-devtools-v115-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.13.0\selenium-devtools-v116-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.13.0\selenium-devtools-v117-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.13.0\selenium-devtools-v85-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.13.0\selenium-edge-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.13.0\selenium-firefox-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\Михаил\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.13.0\selenium-ie-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Михаил\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Михаил\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Михаил\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Михаил\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Михаил\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Михаил\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Михаил\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Михаил\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.13.0\selenium-safari-driver-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\Михаил\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Михаил\.m2\repository\com\codeborne\selenide-core\6.19.1\selenide-core-6.19.1.jar;C:\Users\Михаил\.m2\repository\com\google\guava\guava\32.1.3-jre\guava-32.1.3-jre.jar;C:\Users\Михаил\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Михаил\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Михаил\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Михаил\.m2\repository\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar;C:\Users\Михаил\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar;C:\Users\Михаил\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Михаил\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Михаил\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-selenide\2.28.1\allure-selenide-2.28.1.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-java-commons\2.28.1\allure-java-commons-2.28.1.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-model\2.28.1\allure-model-2.28.1.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-junit5\2.28.1\allure-junit5-2.28.1.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-junit-platform\2.28.1\allure-junit-platform-2.28.1.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-test-filter\2.28.1\allure-test-filter-2.28.1.jar;C:\Users\Михаил\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\Михаил\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Михаил\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Михаил\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Михаил\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Михаил\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Михаил\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Михаил\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Михаил\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Михаил\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Михаил\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Михаил\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Михаил\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Михаил\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Михаил\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-rest-assured\2.12.0\allure-rest-assured-2.12.0.jar;C:\Users\Михаил\.m2\repository\io\qameta\allure\allure-attachments\2.12.0\allure-attachments-2.12.0.jar;C:\Users\Михаил\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\Михаил\.m2\repository\io\github\bonigarcia\webdrivermanager\6.0.1\webdrivermanager-6.0.1.jar;C:\Users\Михаил\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\Михаил\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\Михаил\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\Михаил\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\Михаил\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\Михаил\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\Михаил\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\Михаил\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Михаил\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\Михаил\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\Михаил\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Михаил\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Михаил\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\Михаил\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\Михаил\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\Михаил\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\Михаил\.m2\repository\org\projectlombok\lombok\1.18.6\lombok-1.18.6.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Михаил\javaProg\newtestproject\target/allure-results"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Михаил\AppData\Local\Temp\surefire17414381531270998455\surefirebooter-20250513123254742_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Михаил\AppData\Local\Temp\surefire10129375600791534391\surefirebooter-20250514114353309_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.21+10-LTS"/>
@@ -62,22 +62,22 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="checkCreateBooking" classname="api.TestsBooking" time="7.423">
+  <testcase name="checkCreateBooking" classname="api.TestsBooking" time="8.742">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747128785&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=CLvXDkOvBXy2CIDf%2BRkd3u8iAdAgnsPJFr6PRitR6kI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747128785&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=CLvXDkOvBXy2CIDf%2BRkd3u8iAdAgnsPJFr6PRitR6kI%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747212246&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=RwYGfZ7gyNNZUgXdFM87G7gT848nXYLbC2NiP3I4Kyc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747212246&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=RwYGfZ7gyNNZUgXdFM87G7gT848nXYLbC2NiP3I4Kyc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 198
-Etag: W/"c6-XE2PxkM2W6H0RzbLXylkTlGSVdg"
-Date: Tue, 13 May 2025 09:33:05 GMT
+Etag: W/"c6-KkVudw813UHRyuv1haRRyjJxxjs"
+Date: Wed, 14 May 2025 08:44:06 GMT
 Via: 1.1 vegur
 
 {
-    "bookingid": 1041,
+    "bookingid": 1757,
     "booking": {
         "firstname": "Rem",
         "lastname": "Brown",
@@ -96,34 +96,34 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="checkUpdateBooking" classname="api.TestsBooking" time="1.898">
+  <testcase name="checkUpdateBooking" classname="api.TestsBooking" time="2.367">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747128787&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=8x8ASWKd2jhETNnDRtgrFqS4tyOhYNSXkrhemX%2Bl%2B3E%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747128787&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=8x8ASWKd2jhETNnDRtgrFqS4tyOhYNSXkrhemX%2Bl%2B3E%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747212247&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=D5D8pvpWUz%2BwGNUH5TIsvY0KRBM7%2FNVsIhmzE7IZ57s%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747212247&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=D5D8pvpWUz%2BwGNUH5TIsvY0KRBM7%2FNVsIhmzE7IZ57s%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 27
-Etag: W/"1b-bRr2dTbOOiUryu4GFjSABfNx4us"
-Date: Tue, 13 May 2025 09:33:07 GMT
+Etag: W/"1b-JzHbzaeE0nEwKGUrpzSkXl2gx/0"
+Date: Wed, 14 May 2025 08:44:07 GMT
 Via: 1.1 vegur
 
 {
-    "token": "50721ffffd928da"
+    "token": "ed762ed62a3efc1"
 }
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747128788&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=eIpXJoRGIyd94InF8aCqOod5CEjkmEoZP1Zn2N0pMMg%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747128788&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=eIpXJoRGIyd94InF8aCqOod5CEjkmEoZP1Zn2N0pMMg%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747212249&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=O%2B1xyJ0ezwTsVx6AmtPPX0PB7aUiV5G6kGZoHiq69Jc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747212249&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=O%2B1xyJ0ezwTsVx6AmtPPX0PB7aUiV5G6kGZoHiq69Jc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 167
 Etag: W/"a7-k0mNKyOZByzPT1jK+bOvUsCHD5I"
-Date: Tue, 13 May 2025 09:33:08 GMT
+Date: Wed, 14 May 2025 08:44:09 GMT
 Via: 1.1 vegur
 
 {
@@ -139,18 +139,18 @@ Via: 1.1 vegur
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkGetBooking" classname="api.TestsBooking" time="0.898">
+  <testcase name="checkGetBooking" classname="api.TestsBooking" time="1.053">
     <system-out><![CDATA[HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747128789&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=N5xu6uCPiGDXQZMlmCVFhlSLX7L0q%2FQxrKK0dbt%2B3YQ%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747128789&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=N5xu6uCPiGDXQZMlmCVFhlSLX7L0q%2FQxrKK0dbt%2B3YQ%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747212250&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=zV%2B9P4cZ5dpkTbxgbVNk5tg%2FZ9GOOReWow0WNyPFYOs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747212250&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=zV%2B9P4cZ5dpkTbxgbVNk5tg%2FZ9GOOReWow0WNyPFYOs%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 167
 Etag: W/"a7-k0mNKyOZByzPT1jK+bOvUsCHD5I"
-Date: Tue, 13 May 2025 09:33:09 GMT
+Date: Wed, 14 May 2025 08:44:10 GMT
 Via: 1.1 vegur
 
 {
@@ -166,32 +166,32 @@ Via: 1.1 vegur
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkDeleteBooking" classname="api.TestsBooking" time="1.572">
+  <testcase name="checkDeleteBooking" classname="api.TestsBooking" time="1.966">
     <system-out><![CDATA[HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747128789&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=N5xu6uCPiGDXQZMlmCVFhlSLX7L0q%2FQxrKK0dbt%2B3YQ%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747128789&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=N5xu6uCPiGDXQZMlmCVFhlSLX7L0q%2FQxrKK0dbt%2B3YQ%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747212251&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=S4AHM64XTQ75tMadSCSdLqukC%2F%2F3%2B4IUC8nw6mONJ98%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747212251&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=S4AHM64XTQ75tMadSCSdLqukC%2F%2F3%2B4IUC8nw6mONJ98%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 7
 Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
-Date: Tue, 13 May 2025 09:33:09 GMT
+Date: Wed, 14 May 2025 08:44:11 GMT
 Via: 1.1 vegur
 
 Created
 HTTP/1.1 404 Not Found
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747128790&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=yxM2uk9ktWsPS3UPTY7pCkMnywqH1PgCFWqh1Dq%2FZgg%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747128790&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=yxM2uk9ktWsPS3UPTY7pCkMnywqH1PgCFWqh1Dq%2FZgg%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747212252&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jdVgJJXm8R%2FO%2FrPAaSjX0Ob1qSzYklBwCBKFAlSLSlw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747212252&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=jdVgJJXm8R%2FO%2FrPAaSjX0Ob1qSzYklBwCBKFAlSLSlw%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 9
 Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
-Date: Tue, 13 May 2025 09:33:10 GMT
+Date: Wed, 14 May 2025 08:44:12 GMT
 Via: 1.1 vegur
 
 Not Found
